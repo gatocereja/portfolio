@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+header {
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    font-size: 30px;
+    color:white;
+    font-family: Georgia;
+    font-style: italic;
+}
+nav {
+    font-size:25px;
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style:circle ;
+    margin: 5px 10px;
+}
+nav ul li a {
+    text-decoration: solid;
+    color: rgb(247, 247, 247);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: rgb(223, 116, 111);
+}
+
+.detel {
+    text-align: left    ;
+    font-size: 30px;
+    margin: 4%;
+    padding: 7%;
+    color:white;
+
+}
+.detel2 {
+    font-family:georgia;
+    font-size:25px ; 
+    margin: 2%;
+    color:white;
+}
+
+.detel3 {
+    font-family:georgia;
+    font-size:25px ; 
+    margin: 2%;
+    color:white;
+
+}
+
+.academico{
+    color: white;
+    margin: 1%;
+    padding: 2%;
+    font-size: 23px;
+}
+
+.sobre {
+    color: white;
+    margin: 2%;
+    padding: 3%;
+    font-size: 23px;
+}
+
+.img1 {
+    width: 70%;
+    height: 90%;
+    float: left;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+}
+
+.img2 {
+    width: 20%;
+    height: 30%;
+    float: left;
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
+
+.img3 {
+    width: 20%;
+    height: 30%;
+    float: left;
+    position: absolute;
+    left: 65%;
+    top: 25%;
+}
+
+.img4 {
+    width: 30%;
+    height: 60%;
+    float: left;
+    position: absolute;
+    left: 60%;
+    top: 40%;
+}
+
+.icon1 {
+    width: 3%;
+    height: 5%;
+    float: right;
+    position: absolute;
+    left: 7%;
+    top: 112.9%;
+
+}
+
+.icon2 {
+    width: 3%;
+    height: 5%;
+    float: right;
+    position: absolute;
+    left: 8%;
+    top: 125.9%;
+}
